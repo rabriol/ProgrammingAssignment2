@@ -1,8 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
-
+## here the function mackeCacheMatrix, basically store the inversed matrix version
+## to x
 makeCacheMatrix <- function(x = matrix()) {
         inversedM <- NULL
         
@@ -21,8 +21,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-
+## basically what it does here, is check if the x inversed matrix version is null
+## if it is null, it creates through the solve function, a new matrix inversed and 
+## then set it to x inversed variable, if not, it just returns it
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         inverserd <- x$getInversed()
